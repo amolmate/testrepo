@@ -27,6 +27,12 @@
     			<artifactId>aws-java-sdk-s3</artifactId>
     			<version>1.11.109</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-dynamodb -->
+		<dependency>
+    			<groupId>com.amazonaws</groupId>
+    			<artifactId>aws-java-sdk-dynamodb</artifactId>
+    			<version>1.11.99</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
