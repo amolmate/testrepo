@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "maven"  # Specify Maven as the package manager
-    directory: "/"  # Path where `pom.xml` is located 
+    directory: "/todo"  # Path where `pom.xml` is located 
     schedule:
       interval: "daily"  # Options: daily, weekly, monthly
     open-pull-requests-limit: 5  # Max PRs at a time
